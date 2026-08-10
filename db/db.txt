@@ -1,1 +1,55 @@
--------------------- Database db -----------------------------
+-------------------- Database*** db -----------------------------
+- database db
+    - relationship 
+-  database vs server
+    - (database vs server -googless)
+- does database lives inside server when and when not?
+    - (does database lives inside server_when_when not -googless)
+
+- Types of databases ------------------------------------------------ The two primary categories of databases are Relational (SQL) and Non-Relational (NoSQL) databases.
+- SQL (Structured Query LAnguage)
+    - (SQL definition-googless)
+    - SQL (Structured Query Language) is the standard programming language used to manage, query, and manipulate data stored in relational database management systems (RDBMS)
+
+    - Query:
+        - Writing declarative SQL statements.
+
+- NoSql
+    - (is NoSQL a programming language like SQL -googless)
+    - (BRANDS of NoSQL_is NoSQL a programming language like SQL -googless)
+    - ( TYPES of NoSQL vs BRANDS of NoSQL -googless)
+    - (Vector NoSQL db vs Tradotional NoSQL db -googless)
+
+    - A broad category of database technologies.
+    - NoSQL (which stands for "Not only SQL") is a broad category classification for non-relational database systems. There is no single "NoSQL language"; instead, 
+    
+    - different NoSQL databases use entirely different methods, data formats, or custom APIs to interact with data
+    - No standard language; varies by database brand.
+
+    - Query:
+        Using JSON, product-specific languages, or programming APIs.
+
+    - ]are the brands types of NoSQL databases?
+        - The 4 Main Types of NoSql The Brands
+            - There are only four primary types (or models) of NoSQL databases. The brands are just competing products within those four categories:
+
+            Type 1: Document Stores
+            The Brands: MongoDB, Couchbase, Apache CouchDB.
+
+            Type 2: Key-Value Stores
+            The Brands: Redis, Amazon DynamoDB, Memcached
+
+            Type 3: Wide-Column Stores
+            The Brands: Apache Cassandra, Google Cloud Bigtable, Apache HBase.
+
+            Type 4: Graph Databases
+            The Brands: Neo4j, Amazon Neptune, ArangoDB
+
+    - Vector: 
+        - (Vector NoSQL db vs Tradotional NoSQL db -googless)
+        
+        - newer, highly specialized type of NoSQL database.
+
+        - (Note: Traditional database brands like MongoDB, PostgreSQL, and Redis have also recently added "vector search" features to their existing systems so they can handle this data type too).    
+
+        - Traditional NoSQL databases (like Document or Key-Value stores) look for exact matches. They ask the database: "Does user ID 123 exist?" or "Find all posts where the tag is exactly 'Tech'".Vector databases do not do exact matching. They use complex geometry to perform Approximate Nearest Neighbor (ANN) search. They ask the database: "Find the top 5 images that look conceptually similar to this drawing". Standard NoSQL architectures were never designed to run high-dimensional geometric math natively.
