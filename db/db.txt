@@ -1,4 +1,5 @@
 -------------------- Database*** db -----------------------------
+(Database Fundamentals-Rayan Github - sir class - backend-2-db-start)
 - database db
     - relationship 
 -  database vs server
@@ -34,7 +35,7 @@
     - Query:
         Using JSON, product-specific languages, or programming APIs.
 
-    - ]are the brands types of NoSQL databases?
+    - are the brands types of NoSQL databases?
         - The 4 Main Types of NoSql The Brands
             - There are only four primary types (or models) of NoSQL databases. The brands are just competing products within those four categories:
 
@@ -50,7 +51,12 @@
             Type 4: Graph Databases
             The Brands: Neo4j, Amazon Neptune, ArangoDB
 
-    - Vector: 
+            - usage:
+                - Iot devices
+                - Real time apps: like fifa goal live update, corona affected numbers live uopdate
+                - big data
+
+- Vector: 
         - (Vector NoSQL db vs Tradotional NoSQL db -googless)
         
         - newer, highly specialized type of NoSQL database.
@@ -65,5 +71,69 @@
     - vertical scaling sql vs nosql database 
         - (vertical scaling sql vs nosql database -googless) 
 
+- Graph:
+    - eg. Supply chain, social media, fraud detection(kono app e fraud review), nested comment
+    - node based
 - schema
     - (schema -googless)
+
+- DBMS ---------------------------------------------------------------------------
+    - (DBMS -googless)
+- DBMS Archirtecture overview -sir class db1
+= Core Internal Components 
+    - (DBMS Architecture overview-googless)
+        - Application Layer
+            - from which it is accessed
+        - Query Processor(layer 1)    
+    - Transaction Manager
+        -(atomicity meaning ACID -googless)
+        
+    -
+
+- What is Database Modeling? -----------------------
+    - perform by coding
+    - Data Modeling = Schema
+    - eg 1. LMS platform: 3 features, student, teacher, course
+        - student: name, ph, adde
+        - teacher: name, ph, designation, sub, qualificsation
+        - course: title, duration, content, description
+
+        preparing all collection of required data is a part of Database Modeling
+
+    - eg 2. ecommerce:
+        - user order, inventory amount of product, product
+            - user order product + product linkikg = Relationship
+            
+        Relationship is another part of Database Modeling
+
+    - Benifits of Database Modeling:
+        - Normalization : breakdown in smaller parts and linking them with logic.
+            - (Normalization in Database -googless)
+                - the process generally involves dividing large, complex tables into smaller, isolated tables and defining logical relationships between them
+
+
+        - Primary Key:
+            - unique ID
+            - is used for indexing
+            - used for linking relationships
+            - (what is Relations (table) in database -googless)
+                - A special column with a unique value for every single row so you can find any record easily
+
+        
+        - Triggers
+            - (triggers meaning in database vs sql in simple way -googless)
+            - one kind of function
+
+        - Referential Integrity:
+            - Type of Relationship
+                - eg. if a customer is deleted the orders connected with the customer should be removed too. order id + customer id linked
+
+        - Relations (table)
+            - (what is Relations (table) in database -googless)
+                - tuple
+
+    - Keys 
+        - Foreign Key vs Primary key
+            - (Foreign Key vs Primary key -googless)
+
+        - primary key can act as a Foreign key in another table
